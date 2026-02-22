@@ -78,28 +78,6 @@ def Signup(e):
     else:
         display(f'Invalid input, please complete the form.', target='output')
 
-def display_players(e):
-    document.getElementById('player_list_halfone').innerHTML = " "
-    document.getElementById('player_list_halftwo').innerHTML = " "
-
-    playershalfone = ['Abdullah', 'Abeleda', 'Arce', 'Arias', 'Bonzon', 'Cajucom', 'Catimbang', 'Cotioco', 'Choi', 'Daradal', 'Enriquez', 'Escobar'] # lists
-    
-    count = 1
-    for playerh1 in playershalfone:
-        display(f'({count:02d}) {playerh1}', target='player_list_halfone')
-        if count == 12:
-            break
-        count += 1 # increases number by 1
-
-    playershalftwo = ['Espina', 'Gano', 'Garcia', 'Kaur', 'Ong', 'Rufo', 'Sanchez', 'Santos', 'Tan', 'Vilale', 'Yao', 'Zosa']
-    
-    count = 13
-    for playerh2 in playershalftwo:
-        display(f'({count:02d}) {playerh2}', target='player_list_halftwo')
-        if count == 24:
-            break
-        count += 1
-
 def player_list(e):
     document.getElementById('outputplayer').innerHTML = ''
     
@@ -111,4 +89,5 @@ def player_list(e):
         display(f'({count:02d}) {topaz[index]}', target='outputplayer')
         if count == 24:
             break
+
         count += 1

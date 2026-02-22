@@ -1,5 +1,5 @@
 
-from pyscript import display, document, window
+from pyscript import display, document
 
 def confirm_validity(e):
     document.getElementById('validity_message').innerHTML = ' '
@@ -91,3 +91,4 @@ def player_list(e):
             break
 
         count += 1
+

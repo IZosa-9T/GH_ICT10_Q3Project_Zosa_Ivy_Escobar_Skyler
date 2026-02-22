@@ -1,0 +1,150 @@
+html body {
+    background-image: url(https://i.ibb.co/2YPV97ZX/image.png);
+    background-repeat: repeat;
+    background-attachment: fixed;
+    background-size: cover !important;
+    font-family: Montserrat;
+    color: rgba(53, 31, 30, 0.671);
+}
+
+hg {
+    background-color: rgba(75, 83, 70, 0.256) !important;
+    border-radius: 5px;
+}
+
+.narrow {
+    max-width: 500px;
+    margin: 0 auto !important;
+}
+
+.center {
+    text-align: center;
+}
+
+.btngrn {
+    background-color: rgb(75, 83, 70) !important;
+    color: rgb(213, 213, 198) !important;
+    border-radius: 20px !important;
+}
+
+.whitebg {
+    background-color: rgb(236, 236, 229) !important;
+}
+
+.whitetext {
+    color: rgb(213, 213, 198);
+}
+
+.woodbg {
+    background-image: url(https://i.ibb.co/Jwd6YqnZ/image.png) !important;
+    background-repeat: repeat;
+    background-size: cover !important;
+}
+
+.soilbg {
+    background-image: url(https://image2url.com/r2/default/images/1770629980116-97d55652-c749-48db-a5bb-f618f17dc69e.png) !important;
+    background-repeat: repeat;
+    background-size: cover !important;
+}
+
+.nav-item {
+    width: 120px !important;
+    text-align: center;
+}
+
+.nav-item a {
+    color: rgba(247, 247, 244, 0.736)
+}
+
+.nav-item a:hover {
+    color: rgba(247, 247, 244, 0.736)
+}
+
+.navbg1 {
+    background-color: rgb(75, 83, 70) !important;
+    color: rgb(213, 213, 198) !important;
+    border-radius: 20px !important;
+    border-style: solid !important;
+    border-color: rgba(53, 31, 30, 0.481) !important;
+    border-width: 3px !important;
+}
+
+.navbg2 {
+    background-color: rgb(166, 165, 146) !important;
+    color: rgb(213, 213, 198) !important;
+    border-radius: 20px !important;
+    border-style: solid !important;
+    border-color: rgba(53, 31, 30, 0.481) !important;
+    border-width: 3px !important;
+}
+
+.navbg3 {
+    background-color: rgb(78, 70, 77) !important;
+    color: rgb(213, 213, 198) !important;
+    border-radius: 20px !important;
+    border-style: solid !important;
+    border-color: rgba(53, 31, 30, 0.481) !important;
+    border-width: 3px !important;
+}
+
+.roundcorners {
+    border-radius: 20px !important;
+}
+
+.slightroundcorners {
+    border-radius: 8px !important;
+}
+
+.borderless {
+    border: none !important;
+}
+
+.whiteborder {
+    border-style: solid !important;
+    border-color: rgba(247, 247, 244, 0.36) !important;
+    border-width: 3px !important;
+}
+
+.whitebrokenborder {
+    border-style: dashed !important;
+    border-color: rgba(247, 247, 244, 0.36) !important;
+    border-width: 3px !important;
+}
+
+.darkborder {
+    border-style: solid !important;
+    border-color: rgb(53, 31, 30)!important;
+    border-width: 3px !important;
+}
+
+.darkborder input {
+    border-style: solid !important;
+    border-color: rgba(53, 31, 30, 0.412)!important;
+    border-width: 2px !important;
+}
+
+.padding {
+    padding: 20px;
+}
+
+.paddingbig {
+    padding: 30px;
+}
+
+.footer {
+    margin-top: 0px;
+    letter-spacing: 5px;
+    bottom: 0;
+	vertical-align: middle;
+	position: fixed;
+	width: 500px;
+	padding: 10px;
+	text-align: center;
+	height: 45px;
+    color: rgba(247, 247, 244, 0.625);
+}
+
+.footer a {
+    color: rgba(247, 247, 244, 0.625) !important;
+    text-decoration: none;
+}

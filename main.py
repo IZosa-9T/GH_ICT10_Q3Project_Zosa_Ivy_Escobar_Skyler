@@ -2,10 +2,13 @@
 from pyscript import display, document
 
 def confirm_validity(e):
-    document.getElementById('validity_message').innerHTML = ' '
-    username = document.getElementById('viewer_username').value
+    document.getElementById('validity_message').innerHTML = ' ' # clears existing content in the element with that specific id
+    username = document.getElementById('viewer_username').value # collects data input by the user
     password = document.getElementById('viewer_password').value
 
+    # if-elif-else + nested statements
+    # len is used to distinguish the length of the password and username
+    # isalpha and isdigit is to ensure the input meets the requirements
     if not len(username) >= 7:
         if len(username) == 6:
             display(f'error 1, username lacks 1 more character', target='validity_message')
@@ -53,6 +56,8 @@ def confirm_validity(e):
     elif password.isalpha():
         display(f'error 3, password requires at least 1 digit', target='validity_message')
 
+# the values of different sections are numbers, which is why "int" is used before getting the value of the user's selection
+# grade levels are disregarded when it comes to assigning teams, which is why or is used (as any level is valid as long as it is selected)
 def Signup(e):
     document.getElementById('output').innerHTML = " "
 
@@ -78,6 +83,8 @@ def Signup(e):
     else:
         display(f'Invalid input, please complete the form.', target='output')
 
+# lists to iterate the people in the class
+# count to easily identify number of players
 def player_list(e):
     document.getElementById('outputplayer').innerHTML = ''
     
@@ -91,4 +98,5 @@ def player_list(e):
             break
 
         count += 1
+
 

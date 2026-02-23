@@ -53,11 +53,11 @@ hg {
 }
 
 .nav-item a {
-    color: rgba(247, 247, 244, 0.736)
+    color: rgba(247, 247, 244, 0.736);
 }
 
 .nav-item a:hover {
-    color: rgba(247, 247, 244, 0.736)
+    color: rgba(247, 247, 244, 0.736);
 }
 
 .navbg1 {
@@ -147,4 +147,5 @@ hg {
 .footer a {
     color: rgba(247, 247, 244, 0.625) !important;
     text-decoration: none;
+
 }
